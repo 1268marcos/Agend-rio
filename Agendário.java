@@ -324,7 +324,7 @@ public class Phrase {
     private String mAuthor;
     
     private String mDescription;
-    public Phrase(@Nullable String description, String creationDate, String author, int score,) {
+    public Phrase(@Nullable String description, String creationDate, String author, int score) {
         mDescription = description;
         mAuthor = author;
         mScore = score;
@@ -346,7 +346,7 @@ public class Phrase {
         return mDescription;
     }
     public void setDescription(String description) {
-        mDescriptio  = description;
+        mDescription  = description;
     }
     public int getScore() {
         return mScore;
